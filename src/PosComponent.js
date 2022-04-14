@@ -138,7 +138,7 @@ const PosComponent = () => {
           <Text style={styles.label}>Keterangan :</Text>
           <Text style={styles.label}>{keterangan}</Text>
         </View>
-        <View style={{flexDirection: 'row', justifyContent: 'space-evently'}}>
+        <View style={{flexDirection: 'row', justifyContent: 'space-evenly'}}>
           <Button title="Reset Data" color="#00f" onPress={reset} />
           <Button
             title="Keluar"
